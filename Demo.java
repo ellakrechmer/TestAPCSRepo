@@ -2,11 +2,11 @@ public class Demo{
   public static void main(String[] args){
     if (args.length==0) printLoop(5);
     else printLoop(Integer.parseInt(args[0]));
-    int[][] array1 = {{1,2,3,4,5}, {2,4,6,8,10}};
-    System.out.println(arrDeepToString(array1));
-    System.out.println(arrDeepToString(create2DArray(4,4,4)));
-    System.out.println(arrDeepToString(create2DArrayRandomized(6, 4, 4)));
-    System.out.println(arrDeepToString(create2DArrayRandomized(4, 10, 100)));
+    //int[][] array1 = {{1,2,3,4,5}, {2,4,6,8,10}};
+    //System.out.println(arrDeepToString(array1));
+    //System.out.println(arrDeepToString(create2DArray(4,4,4)));
+    //System.out.println(arrDeepToString(create2DArrayRandomized(6, 4, 4)));
+    //System.out.println(arrDeepToString(create2DArrayRandomized(4, 10, 100)));
   }
   public static void printLoop(int n) {
     for(int i=1; i<=n; i++) {
