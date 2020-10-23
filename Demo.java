@@ -28,7 +28,7 @@ public class Demo{
     }
     return str;
   }
-  public static String arrDeepToString(int[][] arr){
+  public static String arrayDeepToString(int[][] arr){
     String str="";
     if (arr.length==0) str="{}";
     else {
